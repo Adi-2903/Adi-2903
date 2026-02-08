@@ -1,0 +1,23 @@
+name: Update README
+on:
+  schedule:
+    - cron: '0 * * * *' # Updates every hour automatically
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update Projects Section
+        uses: JamesGeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "Updated latest projects and activity 🚀"
+          MAX_LINES: 10
