@@ -29,7 +29,9 @@ def format_activity(activity):
         icon = ""
         
         if event_type == "PushEvent":
-            commits = len(event["payload"]["commits"])
+            commits = len(event["payload"].get("commits", []))
+            if commits == 0:
+                 continue # Skip push events with no commits
             action = f"Pushed {commits} commit{'s' if commits > 1 else ''} to"
             icon = "⚡"
         elif event_type == "WatchEvent":
