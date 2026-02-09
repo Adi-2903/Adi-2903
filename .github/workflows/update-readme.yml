@@ -14,10 +14,11 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - name: Update Projects Section
-        uses: JamesGeorge007/github-activity-readme@master
+      
+      - name: Update Recent Activity
+        uses: Readme-Workflows/recent-activity@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: "Updated latest projects and activity 🚀"
+          COMMIT_MSG: "⚡ Updated latest activity 🚀"
           MAX_LINES: 10
