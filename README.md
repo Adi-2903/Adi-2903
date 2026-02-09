@@ -141,6 +141,16 @@
 
 <img src="./github-metrics.svg" alt="Detailed Metrics" width="100%"/>
 
+<br/><br/>
+
+<!-- Snake Animation -->
+<img src="./dist/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%"/>
+
+<br/><br/>
+
+<!-- 3D Contrib Graph -->
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+
 </div>
 
 <div align="center">
