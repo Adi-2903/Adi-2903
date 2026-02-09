@@ -30,24 +30,9 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-```python
-class Aditya(Developer):
-    def __init__(self):
-        self.name = "Aditya Jain"
-        self.location = "Nirma University, India"
-        self.role = "Full Stack Engineer & AI Researcher"
-        self.mission = "Democratizing Agentic AI"
-        
-    def current_focus(self):
-        return {
-            "Building": "AdiOS (Interactive Linux Learning CLI)",
-            "Learning": "Large Action Models (LAMs)",
-            "Exploring": "Neural Symbolic AI"
-        }
-        
-    def vibe(self):
-        return "Terminal is my home, Code is my poetry."
-```
+<h3 align="center">
+  <samp>&gt; Architecting Intelligence. Democratizing AI. Building the Future.</samp>
+</h3>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -94,13 +79,53 @@ class Aditya(Developer):
 
 <div align="center">
 
-### 🖥️ **AdiOS**
+<table align="center">
+<tr>
+<td width="50%" align="center">
 
-*> A CLI-based interactive learning platform for mastering Linux.*
+### 🖥️ **AdiOS**
+*> Interactive Linux Learning CLI*
 
 `Python` • `Flask` • `React` • `Vercel`
 
-[**View Project**](https://github.com/ADI-2903/AdiOS) • [**Live Demo**](https://adios-frontend.vercel.app/)
+<a href="https://adios-frontend.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-00D9FF?style=for-the-badge&logoColor=black" height="25"></a>
+<a href="https://github.com/ADI-2903/AdiOS"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="25"></a>
+
+</td>
+<td width="50%" align="center">
+
+### ⚡ **OptionX**
+*> Quant Trading Engine (ML + Finance)*
+
+`Python` • `Scikit-Learn` • `Pandas` • `Math`
+
+<a href="https://github.com/Preetansh24/OptionX-Hedge-Fund-Option-Pricing-Risk-Analytics"><img src="https://img.shields.io/badge/View_Code-6366F1?style=for-the-badge&logo=python&logoColor=white" height="25"></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+### 🛡️ **Safe-Scan Lite**
+*> AI-Powered QR Phishing Scanner*
+
+`React` • `FastAPI` • `Security`
+
+<a href="https://safe-scan-lite-cqnf.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logoColor=white" height="25"></a>
+
+</td>
+<td width="50%" align="center">
+
+### 🌾 **FarmSight AI**
+*> Voice-First AgriTech Intelligence*
+
+`Google GenAI` • `React 19` • `Audio`
+
+<a href="https://github.com/ADI-2903/farmsight-ai"><img src="https://img.shields.io/badge/GenAI-4285F4?style=for-the-badge&logo=google&logoColor=white" height="25"></a>
+
+</td>
+</tr>
+</table>
 
 </div>
 
