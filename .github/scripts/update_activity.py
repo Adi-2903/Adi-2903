@@ -5,7 +5,7 @@ import urllib.request
 from datetime import datetime
 
 GITHUB_USERNAME = "ADI-2903"
-README_FILE = "README.md"
+README_FILE = os.path.join(os.getcwd(), "README.md")
 MAX_EVENTS = 10
 
 def fetch_activity():

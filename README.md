@@ -139,7 +139,10 @@
 
 <br/><br/>
 
+<details>
+<summary>Detailed Metrics</summary>
 <img src="https://raw.githubusercontent.com/ADI-2903/ADI-2903/main/github-metrics.svg" alt="Detailed Metrics" width="100%" loading="lazy"/>
+</details>
 
 <br/><br/>
 
@@ -161,7 +164,6 @@
 <div align="left">
 
 <!--START_SECTION:activity-->
-- 🔱 **Forked** [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
 <!--END_SECTION:activity-->
 
 </div>
