@@ -164,10 +164,7 @@
 <div align="left">
 
 <!--START_SECTION:activity-->
-<<<<<<< HEAD
-=======
 
->>>>>>> 283a23c3d6726882e2c8f6557f6363aae88e4a24
 <!--END_SECTION:activity-->
 
 </div>
