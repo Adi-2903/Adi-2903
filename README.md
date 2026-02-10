@@ -51,7 +51,7 @@ If you want, I can:
 - Suggest and list designers/developers (Fiverr/Upwork/Dribbble) you can hire to polish visuals.
 
 <!--START_SECTION:activity-->
-<!-- Activity placeholder: this section is auto-updated by GitHub activity tools -->
+
 <!--END_SECTION:activity-->
 
 ---
