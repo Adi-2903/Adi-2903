@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <style>
+      .bg{fill:#0b1020}
+      .title{font:700 36px 'Segoe UI', Roboto, sans-serif; fill:url(#g1)}
+      .sub{font:400 16px 'Segoe UI', Roboto, sans-serif; fill:#9aa4b2}
+      .dot{fill:#00d9ff}
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%" rx="8"/>
+  <g transform="translate(36,44)">
+    <text class="title">Hey, I'm Adi</text>
+    <text class="sub" y="36">Architecting Intelligence • Building the Future</text>
+  </g>
+
+  <!-- Animated avatar (simple) -->
+  <g transform="translate(620,40)">
+    <circle cx="0" cy="24" r="36" fill="#0f172a" stroke="#00d9ff" stroke-width="4"/>
+    <g transform="translate(-8,16)">
+      <circle cx="-10" cy="-4" r="6" fill="#00d9ff">
+        <animate attributeName="cy" values="-4;0;-4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="10" cy="-4" r="6" fill="#7c3aed">
+        <animate attributeName="cy" values="-4;2;-4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <!-- waving hand -->
+    <g transform="translate(-16,66)">
+      <rect x="-6" y="0" width="12" height="32" rx="6" fill="#00d9ff">
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0;12;0;-12;0" dur="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- particle orbit -->
+  <g transform="translate(200,140)">
+    <circle cx="0" cy="0" r="4" fill="#7c3aed">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;6;3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

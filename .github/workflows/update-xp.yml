@@ -1,0 +1,25 @@
+name: Update XP Badge
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.xp'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Generate XP badge
+        run: |
+          python scripts/generate_xp_badge.py
+      - name: Commit badge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/xp-badge.svg
+          git commit -m "chore: update xp-badge.svg" || echo "no changes"
+          git push || echo "push failed"
