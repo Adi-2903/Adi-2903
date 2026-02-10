@@ -139,17 +139,17 @@
 
 <br/><br/>
 
-<img src="./github-metrics.svg" alt="Detailed Metrics" width="100%"/>
+<img src="https://raw.githubusercontent.com/ADI-2903/ADI-2903/main/github-metrics.svg" alt="Detailed Metrics" width="100%" loading="lazy"/>
 
 <br/><br/>
 
 <!-- Snake Animation -->
-<img src="./dist/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%"/>
+<img src="https://raw.githubusercontent.com/ADI-2903/ADI-2903/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" loading="lazy"/>
 
 <br/><br/>
 
 <!-- 3D Contrib Graph -->
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+<img src="https://raw.githubusercontent.com/ADI-2903/ADI-2903/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" loading="lazy"/>
 
 </div>
 
