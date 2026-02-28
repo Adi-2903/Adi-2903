@@ -118,13 +118,13 @@ open_to     : Collaborations, Open-Source, Internships
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ADI-2903&theme=radical&hide_border=true&background=0b1020&ring=00d9ff&fire=7c3aed&currStreakLabel=00d9ff&sideNums=00d9ff&sideLabels=9aa4b2&dates=9aa4b2" width="70%" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=ADI-2903&theme=radical&hide_border=true&background=0b1020&ring=00d9ff&fire=7c3aed&currStreakLabel=00d9ff&sideNums=00d9ff&sideLabels=9aa4b2&dates=9aa4b2" width="70%" alt="GitHub Streak" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ADI-2903&theme=radical&no-frame=true&no-bg=true&margin-w=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B" width="90%" alt="GitHub Trophies"/>
+<img src="github-metrics.svg" width="90%" alt="GitHub Metrics — Languages, Achievements & Habits"/>
 
 </div>
 
@@ -167,6 +167,44 @@ open_to     : Collaborations, Open-Source, Internships
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ADI-2903/ADI-2903/output/github-contribution-grid-snake.svg"/>
   <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/ADI-2903/ADI-2903/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                  3D CONTRIBUTION GLOBE                    -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+## 🌐 3D Contribution Globe
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season-animate.svg"/>
+  <img alt="3D Contribution Globe" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+</picture>
+
+</div>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                   GITHUB SKYLINE                          -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+## 🏙️ GitHub Skyline
+
+<div align="center">
+
+[![GitHub Skyline 2025](https://img.shields.io/badge/View%20My%20GitHub%20Skyline%20🏙️-0b1020?style=for-the-badge&logo=github&logoColor=00d9ff)](https://skyline.github.com/ADI-2903/2025)
+
+<a href="https://skyline.github.com/ADI-2903/2025">
+  <img src="https://skyline.github.com/ADI-2903/2025.png" width="65%" alt="GitHub Skyline 2025"/>
+</a>
+
+> 🗺️ *My 2025 GitHub contribution history — rendered as an interactive 3D city skyline.*
+
+</div>
 
 ---
 
