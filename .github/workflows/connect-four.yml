@@ -1,0 +1,22 @@
+name: Connect Four
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'connect-four|')
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: JonathanGin42/action-connect-four@v1.4.0
+        with:
+          github_token: ${{ github.token }}
+          issue_number: ${{ github.event.issue.number }}
+          issue_title: ${{ github.event.issue.title }}
+          game_board_commit_message: "🎮 Connect Four move played!"
