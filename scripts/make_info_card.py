@@ -17,6 +17,21 @@ def generate_info_card(output_path="info-card.svg"):
     width = 490
     height = padding * 2 + (len(data) + 3) * line_height
     
+    is_static = os.environ.get("STATIC") == "1"
+    
+    if is_static:
+        anim_css = ".anim { opacity: 1; }"
+    else:
+        anim_css = """
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateX(-10px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+        .anim {
+            opacity: 0;
+            animation: fadeIn 0.5s ease-out forwards;
+        }"""
+
     svg_header = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">
     <style>
         .text {{
@@ -28,15 +43,7 @@ def generate_info_card(output_path="info-card.svg"):
         .title {{ fill: #3fb950; font-weight: bold; }}
         .sep {{ fill: #8b949e; }}
         .bg {{ fill: #0d1117; }}
-        
-        @keyframes fadeIn {{
-            0% {{ opacity: 0; transform: translateX(-10px); }}
-            100% {{ opacity: 1; transform: translateX(0); }}
-        }}
-        .anim {{
-            opacity: 0;
-            animation: fadeIn 0.5s ease-out forwards;
-        }}
+        {anim_css}
     </style>
     <rect class="bg" width="{width}" height="{height}" rx="6" />
     <g class="text">

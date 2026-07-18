@@ -77,8 +77,22 @@ def render_heatmap():
     total_count = sum(d.get("count", 0) for d in data)
     y_footer = 7 * (box_size + gap) + 20
     
+    legend_svg = ""
+    legend_x = num_weeks * (box_size + gap) - gap - (5 * (box_size + gap) + 70)
+    if legend_x < 200:
+        legend_x = 200
+        
+    legend_svg += f'<text class="text anim" x="{legend_x}" y="{y_footer}" style="animation-delay: 1.5s">Less</text>'
+    
+    for i, color in enumerate(PALETTE[:5]):
+        lx = legend_x + 35 + i * (box_size + gap)
+        legend_svg += f'<rect class="day anim" x="{lx}" y="{y_footer - 9}" width="{box_size}" height="{box_size}" fill="{color}" style="animation-delay: 1.5s" />'
+        
+    legend_svg += f'<text class="text anim" x="{legend_x + 35 + 5 * (box_size + gap)}" y="{y_footer}" style="animation-delay: 1.5s">More</text>'
+    
     svg_footer = f'''
         <text class="text anim" x="0" y="{y_footer}" style="animation-delay: 1.5s">{total_count} contributions in the last year</text>
+        {legend_svg}
     </g>
 </svg>'''
     

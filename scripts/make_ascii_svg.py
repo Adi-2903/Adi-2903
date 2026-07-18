@@ -72,6 +72,10 @@ def generate_svg(ascii_lines, output_path="avi-ascii.svg"):
             </rect>
         </clipPath>
         <text x="{padding}" y="{y}" clip-path="url(#{clip_id})">{line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')}</text>
+        <rect y="{y - line_height + 2}" width="{char_width}" height="{line_height - 2}" fill="#c9d1d9" opacity="0">
+            <animate attributeName="x" from="{padding}" to="{width - padding}" begin="{delay}s" dur="{duration}s" />
+            <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" begin="{delay}s" dur="{duration}s" />
+        </rect>
 '''
 
     svg_footer = '''
