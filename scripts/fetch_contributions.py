@@ -29,8 +29,12 @@ def fetch_contributions(username):
             continue
         level = day.get('data-level', '0')
         count = 0
-        text = day.text.strip()
-        if "contribution" in text.lower():
+        
+        day_id = day.get('id')
+        tooltip = soup.find('tool-tip', {'for': day_id})
+        
+        if tooltip:
+            text = tooltip.text.strip()
             parts = text.split(" ")
             if parts[0] == "No":
                 count = 0

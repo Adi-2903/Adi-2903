@@ -67,9 +67,10 @@ def generate_info_card(output_path="info-card.svg"):
     delay = 0.6
     for key, value in data:
         y += line_height
+        val_escaped = value.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         svg_body += f'''
         <g class="anim" style="animation-delay: {delay}s">
-            <text x="{padding}" y="{y}"><tspan class="key">{key}</tspan><tspan class="sep">: </tspan><tspan>{value}</tspan></text>
+            <text x="{padding}" y="{y}"><tspan class="key">{key}</tspan><tspan class="sep">: </tspan><tspan>{val_escaped}</tspan></text>
         </g>
 '''
         delay += 0.2
