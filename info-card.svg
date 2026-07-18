@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 252" width="490" height="252">
+    <style>
+        .text {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 16px;
+            fill: #c9d1d9;
+        }
+        .key { fill: #58a6ff; font-weight: bold; }
+        .title { fill: #3fb950; font-weight: bold; }
+        .sep { fill: #8b949e; }
+        .bg { fill: #0d1117; }
+        
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateX(-10px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+        .anim {
+            opacity: 0;
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+    </style>
+    <rect class="bg" width="490" height="252" rx="6" />
+    <g class="text">
+
+        <g class="anim" style="animation-delay: 0.2s">
+            <text x="30" y="54"><tspan class="title">adi@github</tspan><tspan class="sep">@</tspan><tspan class="title">Adi-2903</tspan></text>
+        </g>
+
+        <g class="anim" style="animation-delay: 0.4s">
+            <text x="30" y="78">-------------------------</text>
+        </g>
+
+        <g class="anim" style="animation-delay: 0.6s">
+            <text x="30" y="102"><tspan class="key">Role</tspan><tspan class="sep">: </tspan><tspan>Software Engineer / Student</tspan></text>
+        </g>
+
+        <g class="anim" style="animation-delay: 0.8s">
+            <text x="30" y="126"><tspan class="key">Stack</tspan><tspan class="sep">: </tspan><tspan>Python, TypeScript, React, Node.js</tspan></text>
+        </g>
+
+        <g class="anim" style="animation-delay: 1.0s">
+            <text x="30" y="150"><tspan class="key">Focus</tspan><tspan class="sep">: </tspan><tspan>Web Development & AI Integrations</tspan></text>
+        </g>
+
+        <g class="anim" style="animation-delay: 1.2s">
+            <text x="30" y="174"><tspan class="key">Location</tspan><tspan class="sep">: </tspan><tspan>Earth</tspan></text>
+        </g>
+
+        <g class="anim" style="animation-delay: 1.4s">
+            <text x="30" y="198"><tspan class="key">Hobbies</tspan><tspan class="sep">: </tspan><tspan>Coding, Gaming, Coffee</tspan></text>
+        </g>
+
+    </g>
+</svg>
